@@ -5,11 +5,11 @@
 <title>Positioning Lab</title>
 <style type="text/css">
 * {
-	margin: 0px;
+	margin: 10px;
 	padding: 0px;
 }
 body {
-	background-color: #ECECEC;
+	background-color:white;
 	font-weight: bold;
 	font-family: Tahoma, Geneva, sans-serif;
 	color: #FFF;
@@ -29,24 +29,47 @@ body {
 	width: 800px;
 	margin-right: auto;
 	margin-left: auto;
+	padding-top: 20px;
 }
 #red {
 	background-color: #900;
+	width:370px;
+	height:150px;
+	float:left;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 #green {
 	background-color: #090;
+	width:370px;
+	height:150px;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 #blue {
 	background-color: #00F;
+	width:370px;
+	height:150px;
+	float:left;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 #purple {
 	background-color: #63C;
+	width:370px;
+	height:150px;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 #footer {
-	background-color: #666;
+	background-color:#666;
+	clear:both;
+	margin:20px;
 }
 h1 {
-	color: #000;
+	color:white;
 	font-weight: normal;
 	padding: 50px;
 }
@@ -56,10 +79,10 @@ h1 {
 <body>
 <h1>Float- 1</h1>
 <div id="wrapper">
-  <div id="red">Red</div>
-  <div id="green">Green</div>
-  <div id="blue">Blue</div>
-  <div id="purple">Purple</div>
+	<div id="red" class="tile">Red</div>
+  <div id="green" class="tile">Green</div>
+  <div id="blue" class="tile">Blue</div>
+  <div id="purple" class="tile">Purple</div>
   <div id="footer">Footer</div>
 </div>
 </body>
