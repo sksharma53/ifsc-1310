@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(171, 154, 154);
+}
+
+img{
+    max-width:100%;
+}
+
+.container{
+    margin:50px auto;
+    width:75vw;
+    
+    max-width:900px;
+}
+
+
+
+.slick-autoplay-toggle-button,
+.slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
+.slick-dots li button .slick-dot-icon,
+.slick-dots li.slick-active button .slick-dot-icon {
+  color: rgb(126, 112, 112);
+}
+
+
+.slick-next:focus .slick-next-icon,
+.slick-next:focus .slick-prev-icon,
+.slick-prev:focus .slick-next-icon,
+.slick-prev:focus .slick-prev-icon,
+.slick-dots li button:focus .slick-dot-icon:before,
+.slick-dots li.slick-active button:focus .slick-dot-icon,
+.slick-autoplay-toggle-button:focus 
+{
+    color:rgb(19, 19, 19);
+}
