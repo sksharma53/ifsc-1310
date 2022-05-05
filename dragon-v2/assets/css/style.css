@@ -58,7 +58,7 @@ html {
   
   header.primary::before {
     content: "";
-    background-image: url("https:/dragon/assets/img/spacex.dragon.jpeg");
+    background-image: url("../img/spacex.dragon.jpeg");
 
     background-size: cover;
     position: absolute;
